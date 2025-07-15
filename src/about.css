@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+nav{
+    background-color: rgba(2,1,0,.3)  ;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 0px;/* it will take top,right,bottom,left*/
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    
+    color: rgb(252, 51, 222);
+}
+.logo{
+    width: 8rem;
+    margin-left: 80px;
+}
+.nav-links{
+    display: flex;
+    list-style-type:none;
+    margin-left: auto;
+    /* gap: 10px; */
+    column-gap: 35px;
+    margin-right: 80px;
+}
+
+/* about header */
+.about-header{
+    background: url(./assests/images/about-banner1.webp) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    gap: 1rem;
+}
+.about-header span{
+    width: 500px;
+    font-weight: 90;
+    text-align: start;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* section */
+
+#img{
+    width: 400px;
+    display: flex;
+    margin: auto;
+}
+.section1 .img1{
+    height: 50%;
+    width: 100%;
+}
+.section1 {
+    background-color:  rgb(237, 234, 230);
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 40px;
+   
+}
+.section1 .d1,.d2,.d3,.d4,.d5,.d6,.d7,.d8{
+    margin: 15px;
+    width: 600px;
+}
+.d8 img{
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+}
+.footer{
+    height: 2rem;
+    padding-top: 1rem;
+    background: linear-gradient(to right,rgb(240, 66, 240),rgb(255, 140, 159));
+    text-align: center;
+    color: white;
+}

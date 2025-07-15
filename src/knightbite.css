@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+nav{
+    background-color: rgba(2,1,0,.3)  ;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 0px;/* it will take top,right,bottom,left*/
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.logo{
+    width: 8rem;
+    margin-left: 80px;
+}
+.nav-links{
+    display: flex;
+    list-style-type:none;
+    margin-left: auto;
+    /* gap: 10px; */
+    column-gap: 35px;
+    margin-right: 80px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    
+    color: rgb(252, 51, 222);
+}
+/*Header of home page Starts*/
+.container{
+    width: 100%;
+    background-attachment: fixed;
+}
+.home-header{
+    height: 100vh;
+    background: url(./assests/images/app-link-background.svg) no-repeat center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* gap: 10px; */
+    gap: 1rem;
+}
+.home-header img{
+    width: 8rem;
+}
+.home-header h1{
+    font-size: 65px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.home-header a{
+    background-color: palevioletred;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+.home-header img{
+    height: 10rem;
+    width: 10rem;
+}
+/* Header of home page ends */
+/* Home-Features section 1 */
+.features-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.features-inner div{
+    text-align: center;
+}
+.features h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+.features{
+    padding: 30px;
+    background-color: rgb(237, 234, 230);
+}
+/* section 2 */
+.poster .banner1{
+    background: url(./assests/images/banner-1.webp) no-repeat center/cover ;
+    height: 100vh;
+}
+.banner1 h1{
+    padding-top: 280px;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-family:Comic Sans MS;
+    text-align: center;
+}
+.poster .banner2{
+    background: url(./assests/images/banner-2.webp) no-repeat center/cover;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.banner2 h1{
+    padding-top: 200px;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+    font-family:Comic Sans MS;
+    text-align: center;
+}
+.banner2 a{
+    border: 2px solid white;
+    color: white;
+    text-decoration: none; 
+    border-radius: 20px;
+    padding: 10px;
+    align-content: center;
+    width: 7rem;
+    margin-left: 40%;
+}
+/* footer  section*/
+.footer #h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 30px;
+}
+.footer #f1{
+    text-align: start;
+    padding-bottom:15px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    background-color: rgb(237, 234, 230);
+}
+.footer-details{
+    display: grid;
+    width: 100vh;
+    justify-content: space-around;
+    margin-left:20px;
+    margin-bottom: 0px;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+}
+.footer-details img {
+    height: 30px;
+    width: 40px;
+}
+.footer-details #m1{
+    padding-top: 20px;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+}
+.footer-item1{
+    height: 200px;
+    width: 350px;
+    padding: 25px;
+}
+.footer-item2{
+    height: 200px;
+    width: 500px;
+    padding: 25px;
+}
+.footerlast{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    
+}
+.footerlast #img1{
+    height: 40px;
+    width: 70px;
+    padding: 20px;
+}
+
+.footerlast #img2{
+    height: 40px;
+    width: 40px;
+    padding: 20px;
+}
+input{
+    height: 40px;
+    background-color:  rgb(237, 234, 230);
+    width: 300px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+.quick-links a{
+    color: red;
+    text-decoration: none;
+    margin: 5px;
+}
+.footerend{
+    height: 2rem;
+    padding-top: 1rem;
+    background: linear-gradient(to right,rgb(240, 66, 240),rgb(255, 140, 159));
+    text-align: center;
+    color: white;
+}

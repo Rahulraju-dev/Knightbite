@@ -1,0 +1,181 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+nav{
+    position: fixed;
+    background-color: rgba(2,1,0,.3)  ;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 0px;/* it will take top,right,bottom,left*/
+   
+    top: 0px;
+    width: 100%;
+}
+.logo{
+    width: 8rem;
+    margin-left: 80px;
+}
+.nav-links{
+    display: flex;
+    list-style-type:none;
+    margin-left: auto;
+    /* gap: 10px; */
+    column-gap: 35px;
+    margin-right: 80px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    color: rgb(252, 51, 222);
+}
+header video{
+    width: 100%;
+    min-height: 100vh;
+}
+header{
+    /* background: url(./assests/videos/franchise_playback.mp4) no-repeat; */
+    background-size:100vh;
+    display: flex;
+    border-bottom: 5px solid rgb(84, 83, 83);
+    flex-direction: column; 
+     
+     
+}
+.head-div{
+    color: white;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+/* video {
+    
+    object-fit: contain;
+    overflow: clip;
+} */
+
+.container{
+    background-color:  rgb(237, 232, 225);
+}
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    background-color: rgb(241, 100, 124);
+    border-radius: 30px;
+    height: 50px;
+    width: 10rem;
+    margin: 10px;
+    cursor: pointer;
+    color: white;
+}
+.section1 img,#imghead{
+    margin-top: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    border: none;
+}
+span{
+    margin-top: 5px;
+    cursor: pointer;
+    align-items: center;
+    padding: 0px;
+}
+/* section */
+section{
+    min-height:90em;
+    padding-top: 60px;
+}
+#footh1,#foot4{
+    color: black;
+    text-align: center;
+    font-size: 4vh;
+}
+.section1{
+    text-align: center;
+}
+.section2{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-around; */
+    grid-template-columns: auto auto auto ;
+    margin: 40px;
+    padding: 50px;
+}
+.section2 img{
+    display: grid;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    height: 70px;
+    width: 70px;
+}
+.section2 p{
+    padding: 10px 10px 10px 0px;
+}
+.head1{
+    padding-top: 30px;
+}
+#s3{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+#s3 img{
+    height: 500px;
+    margin: 30px;
+}
+#s3 button{
+    margin-left: 45%;
+    background-color: rgb(247, 58, 146);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+}
+#s4 img{
+    height: 30px;
+    width: 50px;
+    
+}
+#s4{
+    display: flex;
+    margin-left: 30%;
+    padding: 20px;
+}
+#s4 a{
+    text-decoration: none; 
+    color: rgb(34, 33, 33);
+}
+#s4 a:hover{
+    color: rgb(244, 112, 134);
+}
+.footerend{
+    height: 2rem;
+    padding-top: 1rem;
+    background: linear-gradient(to right,rgb(240, 66, 240),rgb(255, 140, 159));
+    text-align: center;
+    color: white;
+}

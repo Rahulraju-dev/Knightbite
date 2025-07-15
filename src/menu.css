@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    
+}
+nav{
+    background-color: rgba(2,1,0,.3)  ;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px 10px 0px;/* it will take top,right,bottom,left*/
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links a:hover{
+    
+    color: rgb(252, 51, 222);
+}
+.logo{
+    width: 8rem;
+    margin-left: 80px;
+}
+.nav-links{
+    display: flex;
+    list-style-type:none;
+    margin-left: auto;
+    /* gap: 10px; */
+    column-gap: 35px;
+    margin-right: 80px;
+}
+/* header section */
+.header {
+    background: url(./assests/images/menu-banner.webp) no-repeat center/cover;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.s{
+    display: grid;
+    cursor: pointer;
+    margin: 0px;
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    margin: 0px 0px 15px 0px;
+}
+
+.header .s img{
+    height: 70px;
+    width: 70px;
+    margin-left: 30px;
+    /* justify-content: space-between; */
+}
+#i1{
+
+    padding-left: 20px;
+    
+}
+#a{
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+}
+.footer{
+    height: 2rem;
+    padding-top: 1rem;
+    background: linear-gradient(to right,rgb(240, 66, 240),rgb(255, 140, 159));
+    text-align: center;
+    color: white;
+}
